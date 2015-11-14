@@ -1,0 +1,41 @@
+$(document).ready(function(){
+	$("#bt1").click(function(){
+		$("body").append("<div id='mask'></div>");
+		$("#mask").addClass("mask").fadeIn("slow");
+		$("#stu").fadeIn("slow");
+	});
+	$("#bt2").click(function(){
+		$("body").append("<div id='mask'></div>");
+		$("#mask").addClass("mask").fadeIn("slow");
+		$("#com").fadeIn("slow");
+	});
+	$("#bt1").hover(function(){
+		$(this).css({cursor:"url(),pointer"});
+	},function(){
+		$(this).css({cursor:"url(),auto"});
+	});
+	$("#bt2").hover(function(){
+		$(this).css({cursor:"url(),pointer"});
+	},function(){
+		$(this).css({cursor:"url(),auto"});
+	});
+	$(".loginbutton").hover(function(){
+		$(this).css({cursor:"url(),pointer"});
+	},function(){
+		$(this).css({cursor:"url(),auto"});
+	});
+	$(".rr").hover(function(){
+		$(this).css({cursor:"url(),pointer"});
+	},function(){
+		$(this).css({cursor:"url(),auto"});
+	});
+	$(".link").hover(function(){
+		$(this).css("text-decoration","underline");
+	},function(){
+		$(this).css("text-decoration","none");
+	});
+	$(".close").click(function(){
+		$(".loginbox1").fadeOut(10);
+		$("#mask").css({display:'none'});
+	});
+});

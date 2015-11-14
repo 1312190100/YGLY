@@ -1,0 +1,8 @@
+input::-webkit-input-placeholder {
+    color:white;
+    font-family: "Microsoft YaHei";
+}
+input:-moz-placeholder {
+    color:white;
+    font-family: "Microsoft YaHei";
+}

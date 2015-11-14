@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$(".link").hover(function(){
+		$(this).css("color","orange");
+	},function(){
+		$(this).css("color","black");
+	});
+	$("#dv1").hover(function(){
+		$(this).css("color","orange");
+		$(this).css({cursor:"url(),pointer"});
+	},function(){
+		$(this).css("color","black");
+		$(this).css({cursor:"url(),auto"});
+	});
+	$("#dv1").click(function(){
+		$("#list").slideToggle("slow");
+	});
+});

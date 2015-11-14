@@ -1,0 +1,222 @@
+body {
+/*background:#7EC0EE;*/
+background:url("../img/bg.jpg");
+background-position:center;
+margin: 0 !important;
+font-size: 14px !important;
+font-family:"Microsoft YaHei";
+}
+.mask{
+/*margin-top:60px;*/
+padding:0;
+border:none;
+width:100%;
+height:100%;
+/*background:#7EC0EE;*/
+background:url("../img/bg.jpg");
+background-position:bottom;
+z-index:9999;
+position:fixed;
+top:0;
+left:0;
+display:none;
+}
+.pagehead{
+height:60px;
+width:100%;
+border-bottom:1px solid;
+border-color:#CCCCCC;
+background-color:white;
+}
+.pagehead1{
+margin-left:100px;
+margin-top:20px;
+float:left;
+font-size:16px;
+}
+.block1/*:hover*/{
+position:fixed;
+margin-left:100px;
+margin-top:150px;
+height:200px;
+width:550px;
+opacity:0.8;
+font-family:"Microsoft YaHei";
+font-size:16px;
+font-weight:bold;
+}
+.loginbox1{
+position:fixed;
+background-color:none;
+border:0;
+width:100%;
+height:500px;
+/*left:50%;*/
+/*top:50%;*/
+/*margin-left:-190px;  /*设置为宽度的一半*/
+margin-top:50px;   /*设置为高度的一半*/
+z-index:10000;
+display:none;
+}
+.informationblock{
+width:100%;
+height:140px;
+float:left;
+}
+.enterblock{
+width:100%;
+height:60px;
+}
+.enterbutton{
+border:1px solid;
+height:50px;
+width:200px;
+color:white;
+font-family:"Microsoft YaHei";
+font-size:18px;
+/*background-color:#7EC0EE;*/
+background-color:transparent;
+}
+.row{
+height:57px;
+line-height:77px;
+padding:0px 30px;
+font-family:"Microsoft YaHei";
+font-size:x-large;
+text-align: center;
+}
+.headrow{
+height:40px;
+padding:10px;
+font-family:"Microsoft YaHei";
+font-size:18PX;
+text-align: center;
+}
+.tailrow{
+height:40px;
+padding:0px 30px;
+font-family:"Microsoft YaHei";
+font-size:11px;
+text-align: center;
+}
+.warning{
+float:right;
+color:Red;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+margin-right:20px;
+display:none;
+}
+.inputBox{
+border:1px solid;
+padding:4px 3px 3px 3px;
+border-color:white;
+margin-left:0px;
+height:30px;
+width:300px;
+font-size:70%;
+float:"center";
+margin-top:25px;
+background-color:rgba(225,225,225,0);
+color:black;
+font-size:14px;
+}
+.loginbutton{
+background-color:transparent;
+border:1px solid;
+border-color:white;
+height:33px;
+width:306px;
+color:white;
+font-family:"Microsoft YaHei";
+font-size:11px;
+font-weight:bold;
+margin-left:0px;
+margin-top:22px;
+}
+.deadline{
+display:inline-block;
+width:101px;
+float:center;
+}
+.rr{
+font-size:13px;
+margin-top:10px;
+margin-left:5px;
+}
+.link{
+margin-top:10px;
+color:black;
+text-decoration:none;
+}
+.close{
+background-color:transparent;
+border:0;
+border-color:white;
+height:33px;
+width:102px;
+color:white;
+font-family:"Microsoft YaHei";
+font-size:11px;
+font-weight:bold;
+margin-left:5px;
+margin-top:22px;
+}
+.tenpx{
+font-size:2px;
+float:right;
+margin-right:50px;
+font-weight:100;
+}
+
+
+
+
+/*----------------------------------------------------------------------注册页面*/
+
+
+.line1{
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	padding-top:10px;
+}
+.line2{
+	height: 60px;
+	width: 100%;
+	text-align: center;
+}
+.registerbutton{
+background-color:green;
+border:1px solid;
+height:33px;
+width:306px;
+color:white;
+font-family:"Microsoft YaHei";
+font-size:11px;
+font-weight:bold;
+margin-left:5px;
+margin-top:22px;
+opacity:0.5;
+}
+.inputbox{
+border:1px solid #c3c3c3;
+padding:4px 3px 3px 3px;
+margin-left:5px;
+height:30px;
+width:300px;
+font-size:70%;
+float:"center";
+margin-top:25px;
+}
+.to_main{/*注册页面中的直接登陆链接样式*/
+height:40px;
+width:300px;
+color:black;
+font-family:"Microsoft YaHei";
+font-size:12px;
+background:white;
+text-decoration:none;
+margin-left:-230px;
+}
